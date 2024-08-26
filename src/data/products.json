@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Naked Eyeshadow Palette",
+    "brand": "Urban Decay",
+    "category": "Eyes",
+    "price": 54.99
+  },
+  {
+    "id": 2,
+    "name": "Better Than Sex Mascara",
+    "brand": "Too Faced",
+    "category": "Eyes",
+    "price": 25.99
+  },
+  {
+    "id": 3,
+    "name": "Pro Filt'r Soft Matte Foundation",
+    "brand": "Fenty Beauty",
+    "category": "Face",
+    "price": 34.99
+  },
+  {
+    "id": 4,
+    "name": "Radiant Creamy Concealer",
+    "brand": "NARS",
+    "category": "Face",
+    "price": 30.99
+  },
+  {
+    "id": 5,
+    "name": "Soft Glam Eyeshadow Palette",
+    "brand": "Anastasia Beverly Hills",
+    "category": "Eyes",
+    "price": 42.99
+  },
+  {
+    "id": 6,
+    "name": "Matte Lipstick",
+    "brand": "MAC Cosmetics",
+    "category": "Lips",
+    "price": 19.99
+  },
+  {
+    "id": 7,
+    "name": "Butter Bronzer",
+    "brand": "Physicians Formula",
+    "category": "Face",
+    "price": 15.99
+  },
+  {
+    "id": 8,
+    "name": "High Impact Mascara",
+    "brand": "Clinique",
+    "category": "Eyes",
+    "price": 19.99
+  },
+  {
+    "id": 9,
+    "name": "Ultra HD Foundation",
+    "brand": "Make Up For Ever",
+    "category": "Face",
+    "price": 43.99
+  },
+  {
+    "id": 10,
+    "name": "Super Shock Highlighter",
+    "brand": "ColourPop",
+    "category": "Face",
+    "price": 8.99
+  },
+  {
+    "id": 11,
+    "name": "Tattoo Liner",
+    "brand": "KVD Vegan Beauty",
+    "category": "Eyes",
+    "price": 21.99
+  },
+  {
+    "id": 12,
+    "name": "Velvet Matte Lip Pencil",
+    "brand": "NARS",
+    "category": "Lips",
+    "price": 27.99
+  },
+  {
+    "id": 13,
+    "name": "Cheek Heat Gel-Cream Blush",
+    "brand": "Maybelline",
+    "category": "Face",
+    "price": 7.99
+  },
+  {
+    "id": 14,
+    "name": "Luminous Silk Foundation",
+    "brand": "Giorgio Armani",
+    "category": "Face",
+    "price": 64.99
+  },
+  {
+    "id": 15,
+    "name": "Shape Tape Concealer",
+    "brand": "Tarte",
+    "category": "Face",
+    "price": 27.99
+  },
+  {
+    "id": 16,
+    "name": "Brow Wiz",
+    "brand": "Anastasia Beverly Hills",
+    "category": "Eyes",
+    "price": 23.99
+  },
+  {
+    "id": 17,
+    "name": "Vegan Collagen Lash Serum",
+    "brand": "Pacifica",
+    "category": "Eyes",
+    "price": 14.99
+  },
+  {
+    "id": 18,
+    "name": "Organ Blush",
+    "brand": "NARS",
+    "category": "Face",
+    "price": 30.99
+  },
+  {
+    "id": 19,
+    "name": "False Lashes",
+    "brand": "Huda Beauty",
+    "category": "Eyes",
+    "price": 18.99
+  },
+  {
+    "id": 20,
+    "name": "Liquid Matte Lipstick",
+    "brand": "Huda Beauty",
+    "category": "Lips",
+    "price": 20.99
+  },
+  {
+    "id": 21,
+    "name": "Lipstick",
+    "brand": "Huda Beauty",
+    "category": "Lips",
+    "price": 20.99
+  }
+]

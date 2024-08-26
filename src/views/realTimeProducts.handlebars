@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bella Aura - Makeup Page</title>
+  <link rel="stylesheet" href="/css/stylesProducts.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/products.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <h2 class="page-title">Bella Aura - Makeup Page</h2>
+  <hr class="divider">
+
+  {{> menu}}
+
+  <div class="product-info">
+    <h3 class="discount-header">Descuento exclusivo del día: <span class="product-name">{{producto.name}}</span></h3>
+    <p class="product-detail">Marca: <strong>{{producto.brand}}</strong></p>
+    <p class="product-detail">Categoría: <strong>{{producto.category}}</strong></p>
+    <p class="product-detail">Precio: $<strong>{{producto.price}}</strong></p>
+    <!-- Agregar una descripción del producto si es necesario -->
+    <p class="product-description">{{producto.description}}</p>
+  </div>
+
+  <div class="button-container">
+    <a href="/" class="btn btn-primary">Stock de productos</a>
+  </div>
+
+  <!-- Formulario para añadir productos -->
+  <form id="add-product-form" class="form-container">
+    <h2>Agregar Producto</h2>
+    <label for="id">ID:</label>
+    <input type="number" id="product-id" name="id" required>
+
+    <label for="name">Nombre:</label>
+    <input type="text" id="product-name" name="name" required>
+
+    <label for="brand">Marca:</label>
+    <input type="text" id="product-brand" name="brand" required>
+
+    <label for="category">Categoría:</label>
+    <input type="text" id="product-category" name="category" required>
+
+    <label for="price">Precio:</label>
+    <input type="number" id="product-price" name="price" step="0.01" required>
+
+    <button type="submit" class="btn btn-primary">Agregar producto</button>
+  </form>
+
+  <!-- Formulario para eliminar productos -->
+  <form id="delete-product-form" action="/api/products/delete-product?_method=DELETE" method="post" class="form-container">
+    <h2>Eliminar Producto</h2>
+    <label for="delete-id">ID del producto a eliminar:</label>
+    <input type="number" id="delete-id" name="id" required>
+    <button type="submit" class="btn btn-danger">Eliminar producto</button>
+  </form>
+</body>
+</html>

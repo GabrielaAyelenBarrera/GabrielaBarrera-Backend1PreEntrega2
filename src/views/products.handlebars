@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="/css/stylesProducts.css">
+</head>
+<body>
+    <h2 class="page-title">Bella Aura - Makeup Page</h2>
+    <hr>
+
+  
+{{> menu}}
+<div class="product-container">
+    {{#each products}}
+        <div class="product-card">
+            <h3>Producto ID: {{id}}</h3>
+            <h3>{{name}}</h3>
+            <p>Marca: {{brand}}</p>
+            <p>Categoría: {{category}}</p>
+            <p>Precio: ${{price}}</p>
+        </div>
+    {{/each}}
+</div>
+
+
+    <!-- Incluye el cliente de Socket.IO -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Incluye tu archivo JavaScript para manejar eventos de Socket.IO -->
+    <script src="/js/products.js"></script>
+    <!-- Incluye SweetAlert2 desde un CDN en tu archivo HTML -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

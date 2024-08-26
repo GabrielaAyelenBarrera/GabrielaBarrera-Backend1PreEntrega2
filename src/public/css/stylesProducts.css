@@ -1,0 +1,204 @@
+/* General page styling */
+.page-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.divider {
+  border-top: 2px solid var(--primary-color);
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.product-info {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.discount-header {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-detail {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-description {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: var(--text-color);
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.button-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color);
+}
+
+/* Colores principales */
+:root {
+  --primary-color: #e75480; /* Rosa brillante */
+  --secondary-color: #f5e1da; /* Rosa pastel */
+  --accent-color: #d4af37; /* Dorado */
+  --text-color: #333; /* Gris oscuro */
+  --background-color: #fffaf0; /* Blanco hueso */
+}
+
+/* Fondo general */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Encabezados */
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+/* Formularios */
+input[type='text'], input[type='email'], input[type='number'] {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+input[type='submit'] {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+input[type='submit']:hover {
+  background-color: var(--accent-color);
+}
+
+/* Botones */
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+}
+
+/* Imágenes */
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+/* Enlaces */
+a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+/* Contenedores */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Tarjetas de productos */
+.product-card {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Respuesta adaptable */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  input[type='submit'], button {
+    width: 100%;
+  }
+} 
+
+  
